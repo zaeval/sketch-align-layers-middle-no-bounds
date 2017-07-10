@@ -59,7 +59,7 @@ var horizontalMiddle = function (context) {
             var layer = selectedLayers[i];
             var frame = [layer frame];
             var horizontal_x = horizontal_middle - [frame width] / 2;
-        [frame setX: vertical_x];
+            [frame setX: horizontal_x];
         }
     }
 };
