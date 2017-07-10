@@ -58,7 +58,7 @@ var horizontalMiddle = function (context) {
         for (var i = 1; i < selectedLayers.count(); i++) {
             var layer = selectedLayers[i];
             var frame = [layer frame];
-            var horizontal_y = horizontal_middle - [frame width] / 2;
+            var horizontal_x = horizontal_middle - [frame width] / 2;
         [frame setX: vertical_x];
         }
     }

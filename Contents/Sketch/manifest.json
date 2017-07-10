@@ -11,14 +11,14 @@
     {
       "name": "vertical_middle",
       "identifier": "vertical_middle",
-      "shortcut": "ctrl ]",
+      "shortcut": "ctrl [",
       "script": "main.js",
       "handler": ""
     },
     {
       "name": "horizontal_middle",
       "identifier": "vertical_middle",
-      "shortcut": "ctrl [",
+      "shortcut": "ctrl ]",
       "script": "main.js",
       "handler": ""
     },
@@ -26,7 +26,7 @@
   "menu": {
     "items": [
       "vertical_middle",
-      "vertical_middle"
+      "horizontal_middle"
     ]
   }
 }
