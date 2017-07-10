@@ -1,0 +1,32 @@
+{
+  "name": "Align middle with no bounds",
+  "description": "sketch align components middle no bounds from parent component",
+  "author": "zaeval",
+  "homepage": "http://github.com/zaeval/sketch-align-components-middle-no-bounds",
+  "version": 1.0,
+  "identifier": "com.zaeval.sketch-align-components-middle-no-bounds",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "vertical_middle",
+      "identifier": "vertical_middle",
+      "shortcut": "ctrl ]",
+      "script": "main.js",
+      "handler": ""
+    },
+    {
+      "name": "horizontal_middle",
+      "identifier": "vertical_middle",
+      "shortcut": "ctrl [",
+      "script": "main.js",
+      "handler": ""
+    },
+  ],
+  "menu": {
+    "items": [
+      "vertical_middle",
+      "vertical_middle"
+    ]
+  }
+}
