@@ -3,7 +3,7 @@
   "description": "sketch align components middle no bounds from parent component",
   "author": "zaeval",
   "homepage": "http://github.com/zaeval/sketch-align-components-middle-no-bounds",
-  "version": 1.6,
+  "version": 2.0,
   "identifier": "com.zaeval.sketch-align-components-middle-no-bounds",
   "bundleVersion": 1,
   "commands": [
@@ -23,33 +23,29 @@
     },
     {
     "name": "Move up 0.5px",
-    "shortcut": "ctrl command ↑",
+    "shortcut": "shift option ↑",
       "identifier": "up",
-        
     "handler" : "moveUp",
     "script": "move.cocoascript",
     },{
     "name": "Move down 0.5px",
-    "shortcut": "ctrl command ↓",
+    "shortcut": "shift option ↓",
+      "identifier": "down",
     "handler" : "moveDown",
     "script": "move.cocoascript",
     },{
     "name": "Move left 0.5px",
-    "shortcut": "ctrl command ←",
+    "shortcut": "shift option ←",
+      "identifier": "left",
     "handler" : "moveLeft",
     "script": "move.cocoascript",
     },{
     "name": "Move right 0.5px",
-    "shortcut": "ctrl command →",
+    "shortcut": "shift option →",
+      "identifier": "right",
     "handler" : "moveRight",
     "script": "move.cocoascript",
     }
   ],
-  "menu": {
-    "items": [
-      "vertical_middle",
-      "horizontal_middle",
-        "up"
-    ]
-  }
+  
 }

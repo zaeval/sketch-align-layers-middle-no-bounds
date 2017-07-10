@@ -24,3 +24,4 @@ sketch align components middle no bounds from parent component
 
 ![](https://github.com/zaeval/sketch-align-components-middle-no-bounds/blob/master/5.png?raw=true)
 
+![](https://github.com/zaeval/sketch-align-components-middle-no-bounds/blob/master/6.png?raw=true)
