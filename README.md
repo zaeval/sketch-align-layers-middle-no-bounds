@@ -3,7 +3,7 @@
 This plug-in for enable option "fit layers and points to pixel bounds" users.
 ![](https://github.com/zaeval/sketch-align-components-middle-no-bounds/blob/master/7.png?raw=true)
 
-sketch align components middle no bounds from parent 
+It function sketch align components middle from parent & it ignore fit bounds option.  
 
 
 # how 2 use
