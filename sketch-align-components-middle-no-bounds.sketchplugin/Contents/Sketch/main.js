@@ -16,11 +16,13 @@ var verticalMiddle = function (context) {
 
         context.document.showMessage(msg);
         var bounding = [rootLayer frame];
-        var com = context.document.artboards()[0];
-
+        var com = context.document.artboards();
         var vertical_middle = [bounding y] + [bounding height] / 2;
-        if (com == rootLayer) {
-            vertical_middle -= [bounding y];
+        for(var i = 0; i < com.count(); i++){
+             if(com[i]==rootLayer){
+                vertical_middle -= [bounding y];
+                break;
+            }
         }
         for (var i = 1; i < selectedLayers.count(); i++) {
             var layer = selectedLayers[i];
@@ -48,12 +50,13 @@ var horizontalMiddle = function (context) {
 
         context.document.showMessage(msg);
         var bounding = [rootLayer frame];
-        var com = context.document.artboards()[0];
-
+        var com = context.document.artboards();
         var horizontal_middle = [bounding x] + [bounding width] / 2;
-
-        if (com == rootLayer) {
-            horizontal_middle -= [bounding x];
+        for(var i = 0; i < com.count(); i++){
+             if(com[i]==rootLayer){
+                horizontal_middle -= [bounding x];
+                break;
+            }
         }
         for (var i = 1; i < selectedLayers.count(); i++) {
             var layer = selectedLayers[i];
