@@ -24,6 +24,9 @@ It function sketch align components middle from parent & it ignore fit bounds op
 
 ![](https://github.com/zaeval/sketch-align-components-middle-no-bounds/blob/master/4.png?raw=true)
 
+> **`Parent Layer` is Bottom layer.**
+> **And align as of `parent Layer`**
+
 ## It works any type layers
 
 ![](https://github.com/zaeval/sketch-align-components-middle-no-bounds/blob/master/5.png?raw=true)
