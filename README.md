@@ -1,5 +1,8 @@
 # sketch-align-components-middle-no-bounds
-sketch align components middle no bounds from parent component
+
+This plug-in for enable option "fit layers and points to pixel bounds" users.
+![](https://github.com/zaeval/sketch-align-components-middle-no-bounds/blob/master/7.png?raw=true)
+ketch align components middle no bounds from parent 
 
 
 # how 2 use
