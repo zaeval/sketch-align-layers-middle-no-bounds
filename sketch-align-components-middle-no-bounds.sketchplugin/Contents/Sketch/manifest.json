@@ -3,21 +3,21 @@
   "description": "sketch align components middle no bounds from parent component",
   "author": "zaeval",
   "homepage": "http://github.com/zaeval/sketch-align-components-middle-no-bounds",
-  "version": 2.0,
+  "version": 4.0,
   "identifier": "com.zaeval.sketch-align-components-middle-no-bounds",
-  "bundleVersion": 1,
+  "bundleVersion": 3,
   "commands": [
     {
       "name": "vertical_middle",
       "identifier": "vertical_middle",
-      "shortcut": "command [",
+      "shortcut": "command option ,",
       "script": "main.js",
       "handler": "verticalMiddle"
     },
     {
       "name": "horizontal_middle",
       "identifier": "horizontal_middle",
-      "shortcut": "command ]",
+      "shortcut": "command option .",
       "script": "main.js",
       "handler": "horizontalMiddle"
     },
@@ -45,6 +45,31 @@
       "identifier": "right",
     "handler" : "moveRight",
     "script": "move.cocoascript",
+    },
+    {
+      "name": "align top",
+      "shortcut": "command option ↑",
+      "identifier": "align_top",
+      "handler" : "alignTop",
+      "script": "main.js",
+    },{
+      "name": "align bottom",
+      "shortcut": "command option ↓",
+      "identifier": "align_bottom",
+      "handler" : "alignBottom",
+      "script": "main.js",
+    },{
+      "name": "align left",
+      "shortcut": "command option ←",
+      "identifier": "align_left",
+      "handler" : "alignLeft",
+      "script": "main.js",
+    },{
+      "name": "align right",
+      "shortcut": "command option →",
+      "identifier": "align_right",
+      "handler" : "alignRight",
+      "script": "main.js",
     }
   ],
   
